@@ -14,6 +14,8 @@ So that's it.
 So the trick is to create markdown files and then just go to the name without md
 to see them rendered.
 
+The following count is produced with Liquid templating.
+
 {% for i in (1..5) %}
 	{{ i }}
 {% endfor %}
