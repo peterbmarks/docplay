@@ -1,5 +1,6 @@
 # This is the heading
 Here is some normal text
+
 * and
 * this
 * is
@@ -12,3 +13,7 @@ So that's it.
 
 So the trick is to create markdown files and then just go to the name without md
 to see them rendered.
+
+{% for i in (1..5) %}
+	{{ i }}
+{% endfor %}
